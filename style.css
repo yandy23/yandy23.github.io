@@ -1,0 +1,38 @@
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: violet;
+        }
+        main {
+            display: flex;
+            flex-direction: row;
+        }
+        a {
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: dodgerblue;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+
+        }
+        a:hover {
+            background-color: red;
+        }
+        div {
+            width: 100px;
+            background-color: aqua;
+            padding: 10px;
+            width: 100%;
+        }
+        #flex3 {
+            background-color: yellow;
+        }
+        img {
+            width: 100%;
+        }
+    </style>
