@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: pink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    color: lightblue;
+    text-align: center;
+    height: 400px;
+    background-image: url(https://cdn6.dissolve.com/p/D145_260_428/D145_260_428_1200.jpg);
+    background-size: cover;
+    background-position: middle;
+    display:flex;
+    justify-content: space-evenly;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    justify-content: space-evenly;
+}
+nav div {
+    text-align: center;
+    height: 60px;
+    padding-top: 10px;
+}
+
+nav div a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    background-color: orange;
+    color: black;
+
+}
