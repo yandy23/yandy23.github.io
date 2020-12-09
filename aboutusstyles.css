@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: pink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    height: 400px;
+    background-image: url(https://www.rabstol.net/uploads/gallery/main/322/rabstol_net_cakes_21.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: middle;
+    display:flex;
+    justify-content: space-evenly;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    justify-content: space-evenly;
+}
+nav div {
+    text-align: center;
+    height: 60px;
+    padding-top: 10px;
+}
+
+nav div a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    background-color: pink;
+    color: black;
+
+}
+#blue {
+    width: 100%;
+}
